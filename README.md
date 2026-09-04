@@ -10,7 +10,7 @@
 [![React](https://img.shields.io/badge/frontend-React%2019-61DAFB?logo=react&logoColor=white)](#tech-stack)
 [![Express](https://img.shields.io/badge/backend-Express%205-000000?logo=express&logoColor=white)](#tech-stack)
 
-[Live Demo](http://cortex-developersaksham.vercel.app/) · [Repository](https://github.com/Saksham-A-garwal/Cortex) · [Report Bug](https://github.com/Saksham-A-garwal/Cortex/issues) · [Request Feature](https://github.com/Saksham-A-garwal/Cortex/issues)
+[Live Demo](http://cortex-developersaksham.vercel.app/) · [Repository](https://github.com/Shulinagarwal/Cortex) · [Report Bug](https://github.com/Shulinagarwal/Cortex/issues) · [Request Feature](https://github.com/Shulinagarwal/Cortex/issues)
 
 </div>
 
