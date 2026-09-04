@@ -1,0 +1,56 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/* Design tokens (decision D18, 01-PRD.md): one dark theme, applied everywhere.
+   zinc-950/zinc-900/neutral-50/white-10 are stock Tailwind utilities already;
+   only the accent and secondary-text values need a named token since neither
+   is a stock Tailwind color. */
+@theme {
+  --color-accent: #155dfc;
+  --color-secondary-text: #9f9fa9;
+}
+
+body {
+  background-color: #09090b;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Typing Indicator Animation */
+.typing-dot {
+  animation: typing-dot-bounce 1.4s infinite ease-in-out both;
+}
+.typing-dot:nth-child(1) {
+  animation-delay: -0.32s;
+}
+.typing-dot:nth-child(2) {
+  animation-delay: -0.16s;
+}
+@keyframes typing-dot-bounce {
+  0%, 80%, 100% {
+    transform: scale(0);
+  }
+  40% {
+    transform: scale(1);
+  }
+}
+
+/* Small fade-in used for transient overlays (drag-drop target, inline confirmations).
+   Kept here rather than pulling in tailwindcss-animate for two effects. */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate-fade-in {
+  animation: fade-in 150ms ease-out;
+}
