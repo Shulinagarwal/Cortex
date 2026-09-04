@@ -534,8 +534,4 @@ No `LICENSE` file is currently included in this repository. Add one (e.g. MIT) b
 
 ---
 
-<div align="center">
 
-Built by [Saksham Agarwal](https://github.com/Saksham-A-garwal)
-
-</div>
